@@ -1,0 +1,93 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ccc;
+    padding: 20px;
+    position: relative;
+}
+
+#signup {
+    background-color:#fff;
+    border:1px solid #888;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 0 auto;
+    width: 400px;
+}
+
+#signup fieldset {
+   border: 1px solid #ccc;
+   margin-bottom: 30px;
+}
+
+
+#signup fieldset:last-of-type {
+    border: none;
+}
+
+#signup legend {
+ font-weight: bold;
+ font-size: 16px;
+ padding-left: 5px;
+ padding-bottom: 10px;
+}
+
+
+
+#signup ul li {
+ list-style: none;
+ line-height: 30px;
+ padding: 5px 10px;
+ margin-bottom: 2px;
+}
+
+
+
+#signup label {
+
+width: 110px;
+float: left;
+font-size: 13px;
+}
+
+#signup button {
+font-size: 16px;
+letter-spacing: 1px;
+border-radius: 20px;
+border: 1px solid #222;
+padding: 7px 25px;
+display: block;
+margin: 0 auto;
+}
+
+#signup input[type=text], #signup input[type=password],#signup input[type=tel], #signup input[type=email] {
+border: 1px solid #ccc;
+border-radius: 3px;
+font-size: 13px;
+padding: 5px;
+width: 200px;
+
+}
+
+/* 라디오 타입이 아닌 선택자 input:not */
+#signup input:not([type=radio]){}
+
+#signup input[required] {
+    border:1px solid red;
+
+}
+
+#signup input[readonly] {
+    border: none;
+}
+
+
+#signup button:hover {
+    background-color: black;
+    color: white;
+}
