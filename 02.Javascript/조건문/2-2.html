@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var num = prompt("신장을 입력하세요",0);
+        var msg = "놀이기구 이용 가능";
+        var answer;
+
+
+        if (num < 150){
+            answer = confirm("부모님하고 같이 왔나요?");
+        if (answer){
+            msg = "좋은 시간 보내렴~"
+        } else {
+            msg = "어른 모시고 다시오렴~"
+        }
+        }
+
+         document.write(msg);
+
+    </script>
+</body>
+</html>

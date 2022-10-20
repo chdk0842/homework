@@ -10,18 +10,25 @@
     <script>
         var c = prompt("학년을 입력하세요", 0);
         var num = prompt("점수를 입력하세요", 0);
+        // alert("에러입니다.");
         
-        var msg = alert("에러입니다.")//num < 0 && num >= 100;
-        var msg_1 = alert("합격.")
-        var msg_2 = alert("불합격.")
+       
+        var msg_1 = ("합격.")
+        var msg_2 = ("불합격.") 
 
-        if (c <= 4 && num <= 70){
-            msg_1;
-        } else if ( num <= 60) {
-            var msg_1;
+    if (num >= 0 && num <= 100) {
+    
+        if (c == 4 && num >= 70) {
+            console.log(msg_1);
+        } else if(c != 4 && num >= 60) {
+            console.log(msg_1);
         } else {
-            var msg_2;
+            console.log(msg_2);
         }
+
+    }else {
+        alert("에러입니다.");
+    }
 
     </script>
 </body>
