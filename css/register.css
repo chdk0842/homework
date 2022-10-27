@@ -91,3 +91,10 @@ width: 200px;
     background-color: black;
     color: white;
 }
+
+#signup .alert_msg{
+    display: none;
+    color: red;
+    padding-left: 110px;
+    font-size: 0.8rem;
+}
