@@ -79,7 +79,6 @@
 	background-color: white;
 	position: relative;
 	box-shadow:0 2px 3px rgba(0, 0, 0, 0.2);
-
 }
 
 .mobile {
@@ -94,8 +93,6 @@
 	left: 20px;
 	font-size: 1.2rem;
 }
-
-
 
 .header__Mnav > .Mmenu {
 	overflow: auto;
@@ -172,7 +169,6 @@
 
 .header__nav .menu__main {
 	display: none;
-	
 }
 
 .header__nav .delivery-order > .button {
